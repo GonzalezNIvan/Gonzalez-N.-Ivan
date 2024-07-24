@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gonzalez N. Ivan - Administración de Bienes Inmuebles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #333;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            background-color: #333;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .service h3 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact {
+            background-color: #555;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gonzalez N. Ivan</h1>
+        <p>Especialista en Administración de Bienes Inmuebles</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="hero">
+        <h2>Administración de Bienes Inmuebles de Primera Clase</h2>
+        <p>Gestiono tus propiedades con profesionalismo y dedicación.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>Sobre Mí</h2>
+        <p>Con años de experiencia en la administración de bienes inmuebles, me dedico a proporcionar servicios de alta calidad para asegurar que tus propiedades estén siempre en las mejores manos. Mi objetivo es maximizar el valor de tus inversiones y garantizar una gestión eficiente y transparente.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Servicios</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Gestión de Propiedades</h3>
+                <p>Ofrezco servicios integrales de gestión de propiedades, incluyendo mantenimiento, alquiler y venta.</p>
+            </div>
+            <div class="service">
+                <h3>Asesoramiento Legal</h3>
+                <p>Proporciono asesoramiento legal experto para todas tus necesidades inmobiliarias.</p>
+            </div>
+            <div class="service">
+                <h3>Evaluación de Inmuebles</h3>
+                <p>Realizo evaluaciones precisas de inmuebles para ayudarte a tomar decisiones informadas.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contacto</h2>
+        <p>Ponte en contacto conmigo para más información o para solicitar mis servicios.</p>
+        <p>Email: <a href="mailto:ivan.gonzalez@example.com">ivan.gonzalez@example.com</a></p>
+        <p>Teléfono: <a href="tel:+1234567890">+1234567890</a></p>
+    </div>
+    <footer>
+        <p>© 2024 Gonzalez N. Ivan. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
